@@ -1,0 +1,104 @@
+@import url('variables.css');
+
+/* Signature Cyrill Semah */
+.site-author.horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 16px;
+    background-color: #f5f7fa;
+    border-radius: 12px;
+    margin-top: var(--spacing-xl);
+    font-size: 0.95rem;
+    color: var(--dark-gray);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  }
+  
+  .author-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    flex-wrap: wrap;
+  }
+  
+  .author-logo-wrapper {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+  }
+  
+  .author-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .author-logo.hover {
+    opacity: 0;
+  }
+  
+  .author-group:hover .author-logo.default {
+    opacity: 0;
+  }
+  
+  .author-group:hover .author-logo.hover {
+    opacity: 1;
+  }
+  
+  .author-name {
+    font-weight: 600;
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+  }
+  
+  .author-name a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  .author-group:hover .author-name,
+  .author-group:hover .author-name a {
+    color: var(--secondary-color);
+  }
+  
+  .author-name i.fa-mobile-alt {
+    margin-right: 4px;
+  }
+
+  .site-author.horizontal {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .site-author.horizontal:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  }
+  
+  .site-author.horizontal span:first-child {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: transform 0.3s ease;
+  }
+  
+  .site-author.horizontal:hover span:first-child {
+    transform: scale(1.05);
+  }
+  
+  /* Animation uniquement sur le cœur */
+  .author-heart .heart {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  .site-author.horizontal:hover .author-heart .heart {
+    transform: scale(1.2);
+  }

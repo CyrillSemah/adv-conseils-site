@@ -1,0 +1,54 @@
+/* variables.css */
+:root {
+    /* Main colors */
+    --primary-color: #0a4884; /* Dark blue from logo */
+    --secondary-color: #e63946; /* Red from logo */
+    --light-blue: #e6f1ff;
+    --text-color: #333333;
+    --light-text: #ffffff;
+    --background-color: #ffffff;
+    --light-gray: #f5f5f5;
+    --dark-gray: #666666;
+    
+    /* Font families */
+    --main-font: 'Poppins', sans-serif;
+    --heading-font: 'Montserrat', sans-serif;
+    
+    /* Font sizes */
+    --h1-size: 2.5rem;
+    --h2-size: 2rem;
+    --h3-size: 1.5rem;
+    --normal-text: 1rem;
+    --small-text: 0.875rem;
+    
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 3rem;
+    --spacing-xl: 5rem;
+    
+    /* Border radius */
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 16px;
+    
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+    --transition-slow: 0.5s ease;
+    
+    /* Container width */
+    --container-width: 1200px;
+    --container-padding: 20px;
+  }
+  
+  /* Media queries breakpoints */
+  @media (max-width: 768px) {
+    :root {
+      --h1-size: 2rem;
+      --h2-size: 1.75rem;
+      --h3-size: 1.25rem;
+      --normal-text: 0.9375rem;
+    }
+  }

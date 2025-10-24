@@ -1,0 +1,52 @@
+@import url('variables.css');
+
+/* Section globale */
+.legal-section {
+  padding: var(--spacing-lg) 0;
+}
+
+.legal-section .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.legal-section h1 {
+  margin-bottom: var(--spacing-lg);
+  text-align: left;
+  font-size: 2rem;
+  color: var(--dark);
+}
+
+.legal-section h2 {
+  font-size: 1.25rem;
+  margin-top: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
+  color: var(--primary-color);
+}
+
+.legal-section p {
+  margin-bottom: var(--spacing-md);
+  line-height: 1.7;
+  color: var(--dark-gray);
+}
+
+/* Fil d'Ariane */
+.breadcrumb {
+  font-size: 0.85rem;
+  color: var(--light-text); /* discret */
+  margin-bottom: var(--spacing-sm);
+  opacity: 0.6; /* très subtil */
+}
+
+.breadcrumb a {
+  color: var(--light-text);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb span {
+  color: var(--light-text);
+}
