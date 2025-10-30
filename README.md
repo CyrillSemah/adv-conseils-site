@@ -34,7 +34,7 @@ Le site présente les prestations, les avantages de l’externalisation et perme
 
 ## 🧑‍💻 Auteur
 
-**Didier Vidal**  
+**Cyrill SEMAH**  
 [Site web ADV CONSEILS](https://www.advconseils.com)
 
 ---
@@ -43,3 +43,4 @@ Le site présente les prestations, les avantages de l’externalisation et perme
 
 Ce projet est la propriété d’ADV CONSEILS.  
 Toute reproduction, même partielle, est interdite sans autorisation écrite.
+
